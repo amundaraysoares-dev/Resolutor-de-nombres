@@ -11,6 +11,7 @@ void main() {
 
 
        if (dominio.equals("salir")){
+           System.out.println("saliendo......");
            break;
        }else {
 
