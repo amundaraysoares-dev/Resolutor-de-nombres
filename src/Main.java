@@ -34,8 +34,8 @@ void main() {
                }
 
 
-           } catch (Exception e) {
-               throw new RuntimeException(e);
+           } catch (UnknownHostException  e) {
+               System.out.println("Dominio inexistente " + e.getMessage());
            }
 
 
